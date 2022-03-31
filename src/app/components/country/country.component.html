@@ -1,0 +1,23 @@
+<div class="country" >
+  <div class="country-name">
+    {{country.name}}
+    <a routerLink="/card" routerLinkActive="active" (click)="setCurrentCountryCode()">
+      <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#2962FF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/></svg>
+    </a>
+  </div>
+  <div class="country-properties">
+    <div class="property-label">
+      Континент
+    </div>
+    <div class="property-name">
+      {{country.continent.name}}
+    </div>
+    <div class="property-label">
+      Валюта
+    </div>
+    <div class="property-name">
+      {{country.currency}}
+    </div>
+
+  </div>
+</div>

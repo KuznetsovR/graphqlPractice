@@ -1,0 +1,19 @@
+.list-page{
+  display: flex;
+}
+.list-with-heading{
+  flex-grow: 1;
+  margin:52px 64px ;
+}
+.countries-heading{
+  margin: 0;
+}
+.countries-list{
+  margin: 64px 0;
+}
+.pagination-btn{
+  cursor: pointer;
+  background: #FFFFFF;
+  outline: none;
+  border: none;
+}

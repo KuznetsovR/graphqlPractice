@@ -1,0 +1,51 @@
+.country-card{
+  margin: 64px;
+  width: 915px;
+}
+.go-back-link{
+  color: #2962FF;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+}
+.country-name{
+  margin-top: 22px;
+  font-size: 28px;
+  line-height: 32.81px;
+}
+.country-properties{
+  margin-top: 33px;
+}
+.country-properties{
+  display: grid;
+  grid-template-columns: 132px 321px 141px 321px;
+}
+.country-property-name{
+  padding: 20px 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+.country-property-value{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px 0;
+  color: #2962FF;
+}
+.country-languages{
+  margin-top: 30px;
+}
+.country-languages-label{
+  margin-bottom: 22px;
+}
+.languages{
+  color: #2962FF;
+}
+.country-states{
+  margin-top: 40px;
+}
+.country-states-label{
+  margin-bottom: 22px;
+}
+.states{
+  color: #2962FF;
+}

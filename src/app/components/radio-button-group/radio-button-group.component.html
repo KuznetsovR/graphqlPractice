@@ -1,0 +1,13 @@
+<div class="radio-btn-group">
+  <div *ngFor="let option of options" class="radio-button">
+    <input
+      id="{{option.name}}"
+      type="radio"
+      value="{{option.name}}"
+      name="radio-option"
+      [checked]="selected === option.code"
+      (change)="selectAndEmitValue(option)"
+    />
+    <label class="custom-control-label" for="{{option.name}}">{{option.name}}</label>
+  </div>
+</div>

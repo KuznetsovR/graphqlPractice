@@ -1,0 +1,19 @@
+  <div class="filters-wrapper">
+  <div class="filters">
+    <div class="filters-heading">Фильтры</div>
+    <input type="text" class="code-input" placeholder="Код страны" (input)="updateCode($event)" [(ngModel)]="code"/>
+    <div class="multi-select-wrapper">
+      <app-multi-select-dropdown
+        [list]="multiSelectList"
+        [selected]="currency.split('|')"
+        (shareCheckedList)="updateSelectedCurrency($event)">
+      </app-multi-select-dropdown>
+    </div>
+    <div class="continent-select-wrapper">
+      Континент
+      <div class="radio-button-group-wrapper">
+        <app-radio-button-group [selected]="continentCode" [options]="radioOptions" (shareSelectedOption)="updateSelectedContinent($event)" ></app-radio-button-group>
+      </div>
+    </div>
+  </div>
+</div>

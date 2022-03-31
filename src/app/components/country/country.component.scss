@@ -1,0 +1,22 @@
+.country{
+  margin-bottom: 40px;
+  border-bottom: 1px solid #A5A5A5;
+}
+.country-name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.44px;
+}
+.country-properties{
+  margin: 29px 0;
+  font-size: 16px;
+  line-height: 24px;
+  display: grid;
+  grid-template-columns: 132px 321px 141px 1fr;
+}
+.property-name{
+  color: #2962FF;
+}
+.arrow-icon{
+  margin:0  0 -6px 18px;
+}
